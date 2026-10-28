@@ -11,6 +11,7 @@ h2{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--acc
 h1{font-size:1.5rem;margin:0 0 6px}
 h1.app{display:flex;align-items:center;gap:12px}
 h1.app img{width:36px;height:36px;flex:none}
+.demo{display:block;width:100%;height:auto;margin:14px 0 4px;border-radius:10px;border:1px solid var(--line);background:#12171F}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px 26px}
 .card p{margin:10px 0}
 .card ul{margin:10px 0 14px;padding-left:20px}
