@@ -19,7 +19,7 @@
 <main>
 <section class="card">
 <h1>GamePowerPlan Privacy Policy</h1>
-<p>Last updated: 7 October 2026</p>
+<p>Last updated: 28 October 2026</p>
 <p>GamePowerPlan is a small Windows tray app made by Ryan Keller. It switches your Windows power plan while a game is running. This policy explains what it does with your information.</p>
 
 <h2>The short version</h2>
@@ -27,6 +27,14 @@
 
 <h2>What the app looks at</h2>
 <p>To tell whether a game is running, the app checks the file path of each program that is running on your PC and compares it with a list of game folders. This happens only on your computer. The paths are not saved, logged or sent anywhere.</p>
+
+<h2>Scan for games (only when you ask)</h2>
+<p>The Games menu has a "Scan for games" option, and the app offers it once when you first start it. It only runs if you choose it. When it runs, it:</p>
+<ul>
+  <li>reads the lists of installed games that Epic, GOG and Ubisoft keep on your PC (Epic's files in ProgramData, and GOG's and Ubisoft's entries in the Windows registry), and</li>
+  <li>looks through the folders on your drives for file names that only games come with, such as Unity and Unreal engine files. It reads file names only, never what's inside a file.</li>
+</ul>
+<p>It then shows you a list of what it found. Only the game folders you tick are saved, in your settings file. Nothing else from the scan is kept, and nothing is sent anywhere.</p>
 
 <h2>What the app saves</h2>
 <p>The app saves its settings in a file called <code>GamePowerPlan.cfg</code> on your own PC. It contains things like your check interval, grace period, icon colours, hotkey, chosen power plans, the game folders you have added and the programs you have chosen to ignore. This file stays on your computer. You can open it from the tray menu, and you can delete it at any time.</p>
